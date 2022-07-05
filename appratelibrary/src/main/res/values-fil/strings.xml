@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+
+  <string name="lib_rate_btn_go_market">I-rate sa Google play</string>
+  <string name="lib_rate_five_stars_confirm_tip">Lubos kaming magpapasalamat kung ire-rate mo kami.</string>
+  <string name="lib_rate_five_stars_tip">Pinakamahusay na rating %1$s</string>
+  <string name="lib_rate_thanks_feedback">Salamat sa suporta!</string>
+  <string name="lib_rate_like_you">Kami ay labis na nasisiyahan!</string>
+</resources>

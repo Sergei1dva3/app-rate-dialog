@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="lib_rate_btn_go_market">Értékeljen a Google Playen</string>
+    <string name="lib_rate_five_stars_confirm_tip">Nagyon hálásak leszünk, ha értékel minket.</string>
+    <string name="lib_rate_five_stars_tip">Legjobb értékelés %1$s</string>
+    <string name="lib_rate_thanks_feedback">Köszönöm a támogatást!</string>
+    <string name="lib_rate_like_you">Nagyon elégedettek vagyunk!</string>
+</resources>

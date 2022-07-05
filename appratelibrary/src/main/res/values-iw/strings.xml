@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+
+  <string name="lib_rate_btn_go_market">דרג ב-Google play</string>
+  <string name="lib_rate_five_stars_confirm_tip">נהיה אסירי תודה אם תדרג אותנו.</string>
+  <string name="lib_rate_five_stars_tip">הדירוג הטוב ביותר %1$s</string>
+  <string name="lib_rate_thanks_feedback">תודה על התמיכה!</string>
+  <string name="lib_rate_like_you">אנחנו מאוד מרוצים!</string>
+</resources>

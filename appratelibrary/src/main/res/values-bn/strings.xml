@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  
+
+  <string name="lib_rate_btn_go_market">গুগল প্লেতে রেট দিন</string>
+  <string name="lib_rate_five_stars_confirm_tip">আপনি আমাদের রেট যদি আমরা খুব কৃতজ্ঞ হবে.</string>
+  <string name="lib_rate_five_stars_tip">সেরা রেটিং %1$s</string>
+  <string name="lib_rate_thanks_feedback">সমর্থনের জন্য ধন্যবাদ!</string>
+  <string name="lib_rate_like_you">আমরা খুবই খুশি!</string>
+</resources>

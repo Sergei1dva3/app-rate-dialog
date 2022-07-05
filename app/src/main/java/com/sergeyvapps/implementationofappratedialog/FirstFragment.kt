@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.sergeyvapps.appratedialog.MaterialRatingApp
 import com.sergeyvapps.implementationofappratedialog.databinding.FragmentFirstBinding
 
 /**
@@ -22,7 +23,7 @@ class FirstFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
 
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
         return binding.root
@@ -35,6 +36,10 @@ class FirstFragment : Fragment() {
         binding.buttonFirst.setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
+
+        val materialRatingApp = MaterialRatingApp(requireActivity(), sharedPreferencesString = "ad")
+        materialRatingApp.showNow(childFragmentManager, "")
+
     }
 
     override fun onDestroyView() {

@@ -1,0 +1,9 @@
+<resources>
+
+
+    <string name="lib_rate_btn_go_market">Оценить в Google play</string>
+    <string name="lib_rate_five_stars_confirm_tip">Мы будем очень признательны, если вы оцените нас.</string>
+    <string name="lib_rate_five_stars_tip">Лучшая оценка %1$s</string>
+    <string name="lib_rate_thanks_feedback">Спасибо за поддержку!</string>
+    <string name="lib_rate_like_you">Нам очень приятно!</string>
+</resources>

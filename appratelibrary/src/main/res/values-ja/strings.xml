@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="lib_rate_btn_go_market">GooglePlayで評価する</string>
+    <string name="lib_rate_five_stars_confirm_tip">あなたが私たちを評価するならば、私たちは非常に感謝するでしょう。</string>
+    <string name="lib_rate_five_stars_tip">最高の評価%1$s</string>
+    <string name="lib_rate_thanks_feedback">サポートしてくれてありがとう！</string>
+    <string name="lib_rate_like_you">とても嬉しいです！</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+   
+  <string name="lib_rate_btn_go_market">معدل على جوجل اللعب</string>
+  <string name="lib_rate_five_stars_confirm_tip">سنكون ممتنين للغاية إذا قمت بتقييمنا.</string>
+  <string name="lib_rate_five_stars_tip">أفضل تقييم %1$s</string>
+  <string name="lib_rate_thanks_feedback">شكرا على الدعم!</string>
+  <string name="lib_rate_like_you">نحن سعداء جدا!</string>
+</resources>

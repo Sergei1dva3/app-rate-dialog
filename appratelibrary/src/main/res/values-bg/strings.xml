@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+
+    <string name="lib_rate_btn_go_market">Оценете в Google play</string>
+    <string name="lib_rate_five_stars_confirm_tip">Ще бъдем много благодарни, ако ни оцените.</string>
+    <string name="lib_rate_five_stars_tip">Най-добра оценка %1$s</string>
+    <string name="lib_rate_thanks_feedback">Благодаря за подкрепата!</string>
+    <string name="lib_rate_like_you">Много сме доволни!</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="lib_rate_btn_go_market">Hinda Google Plays</string>
+    <string name="lib_rate_five_stars_confirm_tip">Oleme väga tänulikud, kui hindate meid.</string>
+    <string name="lib_rate_five_stars_tip">Parim hinnang %1$s</string>
+    <string name="lib_rate_thanks_feedback">Aitäh toetuse eest!</string>
+    <string name="lib_rate_like_you">Oleme väga rahul!</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+
+    <string name="lib_rate_btn_go_market">Beoordeel op Google Play</string>
+    <string name="lib_rate_five_stars_confirm_tip">Ons sal baie dankbaar wees as jy ons gradeer.</string>
+    <string name="lib_rate_five_stars_tip">Beste gradering %1$s</string>
+    <string name="lib_rate_thanks_feedback">Dankie vir ondersteuning!</string>
+    <string name="lib_rate_like_you">Ons is baie ingenome!</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="lib_rate_btn_go_market">Beri peringkat di Google play</string>
+    <string name="lib_rate_five_stars_confirm_tip">Kami akan sangat berterima kasih jika Anda menilai kami.</string>
+    <string name="lib_rate_five_stars_tip">Peringkat terbaik %1$s</string>
+    <string name="lib_rate_thanks_feedback">Terima kasih atas dukungannya!</string>
+    <string name="lib_rate_like_you">Kami sangat senang!</string>
+</resources>

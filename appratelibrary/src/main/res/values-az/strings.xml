@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+
+  <string name="lib_rate_btn_go_market">Google play-də qiymətləndirin</string>
+  <string name="lib_rate_five_stars_confirm_tip">Bizi qiymətləndirsəniz çox minnətdar olarıq.</string>
+  <string name="lib_rate_five_stars_tip">Ən yaxşı reytinq %1$s</string>
+  <string name="lib_rate_thanks_feedback">Dəstək üçün təşəkkür edirik!</string>
+  <string name="lib_rate_like_you">Biz çox məmnunuq!</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="lib_rate_btn_go_market">Calificar en Google Play</string>
+    <string name="lib_rate_five_stars_confirm_tip">Le estaremos muy agradecidos si nos califica.</string>
+    <string name="lib_rate_five_stars_tip">Mejor calificación %1$s</string>
+    <string name="lib_rate_thanks_feedback">¡Gracias por el apoyo!</string>
+    <string name="lib_rate_like_you">¡Estamos muy satisfechos!</string>
+</resources>

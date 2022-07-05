@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="lib_rate_btn_go_market">गूगल प्ले पर रेट करें</string>
+    <string name="lib_rate_five_stars_confirm_tip">यदि आप हमें रेट करते हैं तो हम आपके बहुत आभारी होंगे।</string>
+    <string name="lib_rate_five_stars_tip">सर्वश्रेष्ठ रेटिंग %1$s</string>
+    <string name="lib_rate_thanks_feedback">समर्थन के लिए धन्यवाद!</string>
+    <string name="lib_rate_like_you">हम बहुत खुश हैं!</string>
+</resources>

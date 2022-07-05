@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+ 
+
+  <string name="lib_rate_btn_go_market">Valora a Google Play</string>
+  <string name="lib_rate_five_stars_confirm_tip">Estarem molt agraïts si ens valoreu.</string>
+  <string name="lib_rate_five_stars_tip">Millor valoració %1$s</string>
+  <string name="lib_rate_thanks_feedback">Gràcies pel suport!</string>
+  <string name="lib_rate_like_you">Estem molt contents!</string>
+</resources>

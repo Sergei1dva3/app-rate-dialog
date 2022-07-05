@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="lib_rate_btn_go_market">Arvioi Google Playssa</string>
+    <string name="lib_rate_five_stars_confirm_tip">Olemme erittäin kiitollisia, jos arvioit meidät.</string>
+    <string name="lib_rate_five_stars_tip">Paras arvosana %1$s</string>
+    <string name="lib_rate_thanks_feedback">Kiitos tuesta!</string>
+    <string name="lib_rate_like_you">Olemme erittäin tyytyväisiä!</string>
+</resources>

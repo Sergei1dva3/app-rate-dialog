@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+
+  <string name="lib_rate_btn_go_market">შეაფასეთ Google Play-ზე</string>
+  <string name="lib_rate_five_stars_confirm_tip">ძალიან მადლობელი ვიქნებით, თუ შეგვაფასებთ.</string>
+  <string name="lib_rate_five_stars_tip">საუკეთესო შეფასება %1$s</string>
+  <string name="lib_rate_thanks_feedback">Გმადლობთ მხარდაჭერისთვის!</string>
+  <string name="lib_rate_like_you">ჩვენ ძალიან კმაყოფილი ვართ!</string>
+</resources>

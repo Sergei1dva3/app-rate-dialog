@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lib_rate_btn_go_market">Rate on Google play</string>
+    <string name="lib_rate_five_stars_confirm_tip">We will be very grateful if you rate us.</string>
+    <string name="lib_rate_five_stars_tip">Best rating %1$s</string>
+    <string name="lib_rate_thanks_feedback">Thanks for support!</string>
+    <string name="lib_rate_like_you">We are very pleased!</string>
+
+</resources>

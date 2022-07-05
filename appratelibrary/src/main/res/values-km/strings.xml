@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+
+  <string name="lib_rate_btn_go_market">វាយតម្លៃនៅលើ Google Play</string>
+  <string name="lib_rate_five_stars_confirm_tip">យើងនឹងដឹងគុណខ្លាំងណាស់ ប្រសិនបើអ្នកវាយតម្លៃយើង។</string>
+  <string name="lib_rate_five_stars_tip">ការវាយតម្លៃល្អបំផុត %1$s</string>
+  <string name="lib_rate_thanks_feedback">អរគុណសម្រាប់ការគាំទ្រ!</string>
+  <string name="lib_rate_like_you">យើង​រីករាយ​ណាស់!</string>
+</resources>

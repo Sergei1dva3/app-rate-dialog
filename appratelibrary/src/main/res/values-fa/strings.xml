@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+
+  <string name="lib_rate_btn_go_market">در گوگل پلی امتیاز دهید</string>
+  <string name="lib_rate_five_stars_confirm_tip">اگر به ما امتیاز دهید بسیار سپاسگزار خواهیم بود.</string>
+  <string name="lib_rate_five_stars_tip">بهترین رتبه %1$s</string>
+  <string name="lib_rate_thanks_feedback">با تشکر از حمایت!</string>
+  <string name="lib_rate_like_you">ما خیلی خوشحالیم!</string>
+</resources>

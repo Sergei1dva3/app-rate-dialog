@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+
+    <string name="lib_rate_btn_go_market">Ohodnoťte na Google Play</string>
+    <string name="lib_rate_five_stars_confirm_tip">Budeme velmi vděční, pokud nás ohodnotíte.</string>
+    <string name="lib_rate_five_stars_tip">Nejlepší hodnocení %1$s</string>
+    <string name="lib_rate_thanks_feedback">Děkuji za podporu!</string>
+    <string name="lib_rate_like_you">Jsme velice potěšeni!</string>
+</resources>
