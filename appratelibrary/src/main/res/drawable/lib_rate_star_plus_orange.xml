@@ -2,6 +2,7 @@
     android:width="18dp"
     android:height="30dp"
     android:viewportWidth="18"
+    android:autoMirrored="true"
     android:viewportHeight="30">
     <path
         android:strokeWidth="1"

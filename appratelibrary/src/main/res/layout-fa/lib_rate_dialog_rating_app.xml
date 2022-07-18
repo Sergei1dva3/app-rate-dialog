@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/lib_rate_dialog_bg"
@@ -92,7 +93,6 @@
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-
                 <androidx.appcompat.widget.AppCompatRatingBar
                     android:id="@+id/rtb_with_bulb"
                     style="@style/lib_rate_rating_bar_with_bulbs"
@@ -105,12 +105,13 @@
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
                 <ImageView
                     android:id="@+id/star_plus_sparkles"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/dp_16"
-                    app:layout_constraintLeft_toRightOf="@+id/rtb"
+                    app:layout_constraintStart_toEndOf="@+id/rtb"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/lib_rate_star_plus" />
 
@@ -118,7 +119,7 @@
                     android:id="@+id/star_plus_arrow"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:layout_constraintRight_toRightOf="@+id/rtb"
+                    app:layout_constraintEnd_toEndOf="@+id/rtb"
                     app:layout_constraintTop_toBottomOf="@+id/rtb"
                     app:srcCompat="@drawable/lib_rate_star_here" />
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -131,8 +132,9 @@
                 android:layout_marginHorizontal="@dimen/dp_15"
                 android:layout_marginBottom="@dimen/dp_10"
                 android:fontFamily="sans-serif-medium"
-                android:maxLines="2"
 
+                android:layout_gravity="end"
+                android:maxLines="2"
                 android:text="@string/lib_rate_five_stars_tip"
                 android:textColor="@color/lib_rate_dialog_five_star_tip_color"
                 android:textSize="@dimen/sp_18"
