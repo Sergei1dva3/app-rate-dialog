@@ -37,8 +37,11 @@ class FirstFragment : Fragment() {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
 
-        val materialRatingApp = MaterialRatingApp(requireActivity(), sharedPreferencesString = "ad")
-        materialRatingApp.showNow(childFragmentManager, "")
+
+        if (childFragmentManager.findFragmentByTag("qwe") == null) {
+            MaterialRatingApp(sharedPreferencesString = "ad").showNow(childFragmentManager, "qwe")
+        }
+
 
     }
 

@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/vavaev/AndroidStudioProjects/ImplementationOfAppRateDialog/app/src/main/res/layout/activity_main.xml" value="0.55" />
+        <entry key="..\:/Users/vavaev/AndroidStudioProjects/ImplementationOfAppRateDialog/app/src/main/res/layout/content_main.xml" value="0.4322916666666667" />
+        <entry key="..\:/Users/vavaev/AndroidStudioProjects/ImplementationOfAppRateDialog/app/src/main/res/layout/fragment_first.xml" value="0.4322916666666667" />
         <entry key="..\:/Users/vavaev/AndroidStudioProjects/ImplementationOfAppRateDialog/app/src/main/res/layout/fragment_second.xml" value="0.2604166666666667" />
         <entry key="..\:/Users/vavaev/AndroidStudioProjects/ImplementationOfAppRateDialog/appratelibrary/src/main/res/drawable/ic_google_icon_v2.xml" value="0.2295" />
         <entry key="..\:/Users/vavaev/AndroidStudioProjects/ImplementationOfAppRateDialog/appratelibrary/src/main/res/drawable/lib_rate_background.xml" value="0.2295" />

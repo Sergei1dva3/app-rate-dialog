@@ -1,11 +1,9 @@
 package com.sergeyvapps.appratedialog
 
-import android.app.Activity
 import android.app.Dialog
 import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
-import android.content.SharedPreferences
 import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -15,13 +13,31 @@ import android.widget.ImageView
 import android.widget.RatingBar
 import android.widget.RatingBar.*
 import android.widget.TextView
+import androidx.annotation.Keep
 import androidx.core.content.ContextCompat
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
 
-class MaterialRatingApp(private var activity: Activity, private var defaultStars: Boolean = true, private var sharedPreferencesString: String) :
-    BottomSheetDialogFragment() {
+class MaterialRatingApp :
+    BottomSheetDialogFragment {
+
+    private var defaultStars: Boolean = true
+    private var sharedPreferencesString: String? = null
+
+    constructor(defaultStars: Boolean, sharedPreferencesString: String?) {
+        this.defaultStars = defaultStars
+        this.sharedPreferencesString = sharedPreferencesString
+    }
+
+    constructor(sharedPreferencesString: String?) {
+        this.sharedPreferencesString = sharedPreferencesString
+    }
+
+
+    @Keep
+    constructor() {
+    }
 
 
     private var ratingBar: RatingBar? = null
@@ -54,18 +70,11 @@ class MaterialRatingApp(private var activity: Activity, private var defaultStars
 
         }
 
-
-
         rate_emoji = v.findViewById(R.id.rate_emoji)
         star_plus_sparkles = v.findViewById(R.id.star_plus_sparkles)
         star_plus_arrow = v.findViewById(R.id.star_plus_arrow)
         star_plus_text = v.findViewById(R.id.star_plus_text)
         star_plus_text?.text = getString(R.string.lib_rate_five_stars_tip, ":)")
-
-
-
-
-
         changeRating()
         onclick()
         return v
@@ -82,9 +91,10 @@ class MaterialRatingApp(private var activity: Activity, private var defaultStars
                             getString(R.string.lib_rate_five_stars_confirm_tip)
                         star_plus_sparkles!!.setImageResource(R.drawable.lib_rate_star_plus)
                         star_plus_arrow!!.setImageResource(R.drawable.lib_rate_star_here)
+
                         star_plus_text!!.setTextColor(
                             ContextCompat.getColor(
-                                activity,
+                                requireActivity(),
                                 R.color.lib_rate_dialog_five_star_tip_color
                             )
                         )
@@ -98,7 +108,7 @@ class MaterialRatingApp(private var activity: Activity, private var defaultStars
                         star_plus_arrow!!.setImageResource(R.drawable.lib_rate_star_here)
                         star_plus_text!!.setTextColor(
                             ContextCompat.getColor(
-                                activity,
+                                requireActivity(),
                                 R.color.lib_rate_dialog_five_star_tip_color
                             )
                         )
@@ -112,7 +122,7 @@ class MaterialRatingApp(private var activity: Activity, private var defaultStars
                         star_plus_arrow!!.setImageResource(R.drawable.lib_rate_star_here)
                         star_plus_text!!.setTextColor(
                             ContextCompat.getColor(
-                                activity,
+                                requireActivity(),
                                 R.color.lib_rate_dialog_five_star_tip_color
                             )
                         )
@@ -125,7 +135,7 @@ class MaterialRatingApp(private var activity: Activity, private var defaultStars
                         star_plus_arrow!!.setImageResource(R.drawable.lib_rate_star_here)
                         star_plus_text!!.setTextColor(
                             ContextCompat.getColor(
-                                activity,
+                                requireActivity(),
                                 R.color.lib_rate_dialog_five_star_tip_color
                             )
                         )
@@ -138,7 +148,7 @@ class MaterialRatingApp(private var activity: Activity, private var defaultStars
                         star_plus_arrow!!.setImageResource(R.drawable.lib_rate_star_here_orange)
                         star_plus_text!!.setTextColor(
                             ContextCompat.getColor(
-                                activity,
+                                requireActivity(),
                                 R.color.orange_plus_star
                             )
                         )
@@ -152,7 +162,7 @@ class MaterialRatingApp(private var activity: Activity, private var defaultStars
                         star_plus_arrow!!.setImageResource(R.drawable.lib_rate_star_here)
                         star_plus_text!!.setTextColor(
                             ContextCompat.getColor(
-                                activity,
+                                requireActivity(),
                                 R.color.lib_rate_dialog_five_star_tip_color
                             )
                         )
@@ -163,10 +173,10 @@ class MaterialRatingApp(private var activity: Activity, private var defaultStars
 
     private fun onclick() {
         lib_rate_button!!.setOnClickListener { view: View? ->
-            val packageName = activity.packageName
-            val prefs = activity.getSharedPreferences(sharedPreferencesString, Context.MODE_PRIVATE)
-            val editor = prefs.edit()
-            editor.putBoolean("is_rated", true).apply()
+            val packageName = activity?.packageName
+            val prefs = activity?.getSharedPreferences(sharedPreferencesString, Context.MODE_PRIVATE)
+            val editor = prefs?.edit()
+            editor?.putBoolean("is_rated", true)?.apply()
             var it: Intent
             try {
                 it = Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$packageName"))
