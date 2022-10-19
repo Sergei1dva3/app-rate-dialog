@@ -22,13 +22,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 class MaterialRatingApp :
     BottomSheetDialogFragment {
 
-    private var defaultStars: Boolean = true
     private var sharedPreferencesString: String? = null
-
-    constructor(defaultStars: Boolean, sharedPreferencesString: String?) {
-        this.defaultStars = defaultStars
-        this.sharedPreferencesString = sharedPreferencesString
-    }
 
     constructor(sharedPreferencesString: String?) {
         this.sharedPreferencesString = sharedPreferencesString
@@ -47,8 +41,11 @@ class MaterialRatingApp :
     private var rate_result_title: TextView? = null
     private var lib_rate_button: TextView? = null
     private var star_plus_text: TextView? = null
-    override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
 
+
+
+    override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
+        setStyle(STYLE_NORMAL, R.style.lib_rate_round_corner)
         return super.onCreateDialog(savedInstanceState) as BottomSheetDialog
     }
 
@@ -63,12 +60,7 @@ class MaterialRatingApp :
         lib_rate_button = v.findViewById(R.id.lib_rate_button)
 
         ratingBar = v.findViewById(R.id.rtb)
-        if (!defaultStars) {
-            ratingBar?.visibility = INVISIBLE
-            ratingBar = v.findViewById(R.id.rtb_with_bulb)
-            ratingBar?.visibility = VISIBLE
 
-        }
 
         rate_emoji = v.findViewById(R.id.rate_emoji)
         star_plus_sparkles = v.findViewById(R.id.star_plus_sparkles)

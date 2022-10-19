@@ -6,11 +6,6 @@
         <item name="android:indeterminateDrawable">@drawable/lib_rate_ratingbar_full</item>
     </style>
 
-    <style name="lib_rate_rating_bar_with_bulbs" parent="Widget.AppCompat.RatingBar">
-        <item name="android:progressDrawable">@drawable/lib_rate_ratingbar_full_with_bulb</item>
-        <item name="android:indeterminateDrawable">@drawable/lib_rate_ratingbar_full_with_bulb</item>
-    </style>
-
     <style name="lib_rate_round_corner" parent="Theme.AppCompat.DayNight.Dialog">
         <item name="android:windowBackground">@null</item>
     </style>
